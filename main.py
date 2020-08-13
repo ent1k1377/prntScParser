@@ -37,4 +37,4 @@ def randomLink(num):
             print(f'{n}/{num} изображения скачано!')
 
 
-randomLink(input('Сколько вам нужно изображений: '))
+randomLink(int(input('Сколько вам нужно изображений: ')))
